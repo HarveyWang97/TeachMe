@@ -132,22 +132,26 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#FFF',
-    padding: 20,
+    padding: '3%',
   },
   logoContainer: {
     alignItems: 'center',
-    flexGrow: 1,
+    //flexGrow: 1,
     justifyContent: 'center',
-    marginTop:20
+    marginTop:'5%',
+    //borderColor:'black',
+    //borderWidth:1,
+    height:'40%'
   },
   logo: {
     width: 150,
     height: 150,
-     borderRadius: 150/2
+    borderRadius:75,
+    
   },
   title: {
     color: '#1a8cff',
-    marginTop: 20,
+    marginTop: '8%',
     width: 160,
     textAlign: 'center',
     opacity: 0.9,
@@ -155,22 +159,23 @@ const styles = StyleSheet.create({
 
   },
   input: {
-    height: 40,
+    height: '15%',
     borderRadius: 4,
     borderWidth: 0.5,
     borderColor: '#d6d7da',
     backgroundColor: '#FFF',
-    marginBottom: 20,
+    marginBottom: '6%',
     color: '#000000',
-    paddingHorizontal: 20
+    paddingHorizontal: 20,
+    
   },
   errorText: {
     color: 'red'
   },
   buttonContainer: {
-    marginBottom: 5,
+    marginBottom: '2%',
     backgroundColor: '#1a8cff',
-    paddingVertical: 15
+    paddingVertical: '4%'
   },
   buttonText: {
     textAlign: 'center',
@@ -178,6 +183,7 @@ const styles = StyleSheet.create({
     fontWeight: '700'
   },
   formContainer:{
-    marginTop:50
+    marginTop:'10%'
+
   }
 });
