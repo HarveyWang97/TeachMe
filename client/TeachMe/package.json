@@ -24,7 +24,7 @@
   "devDependencies": {
     "@babel/core": "7.4.4",
     "@babel/runtime": "^7.4.5",
-    "@shoutem/ui": "^0.23.20",
+    "@shoutem/ui": "^6.1.0",
     "babel-jest": "24.8.0",
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.13.0",
